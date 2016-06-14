@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gang_affiliation"
+            android:title="Gang Affiliation" />
+        <item
+            android:id="@+id/dom_violence"
+            android:title="Domestic Violence In Teens" />
+        <item
+            android:id="@+id/sex_exploit"
+            android:title="Sexual Exploitation" />
+        <item
+            android:id="@+id/cannabis_health"
+            android:title="Cannabis &amp; Mental Health" />
+        <item
+            android:id="@+id/about_us"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/contact_us"
+            android:title="Contact Us" />
+    </group>
+
+
+</menu>

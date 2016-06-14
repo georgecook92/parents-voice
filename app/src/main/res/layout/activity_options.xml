@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/toolbar" />
+
+            <Button
+                android:id="@+id/gang_button"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="16dp"
+                android:background="@drawable/dark_button"
+                android:textColor="#fff"
+                android:text="Gang Affiliation."
+                android:layout_below="@+id/toolbar"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/violence_button"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="16dp"
+                android:background="@drawable/dark_button"
+                android:textColor="#fff"
+                android:text="Domestic Violence In Teens."
+                android:layout_below="@+id/gang_button"
+                />
+
+
+            <Button
+                android:id="@+id/exploitation_button"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="16dp"
+                android:background="@drawable/dark_button"
+                android:textColor="#fff"
+                android:text="Sexual Exploitation."
+                android:layout_below="@+id/violence_button"
+                />
+
+
+            <Button
+                android:id="@+id/cannabis_button"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="16dp"
+                android:background="@drawable/dark_button"
+                android:textColor="#fff"
+                android:text="Cannabis &amp; Mental Health."
+                android:layout_below="@+id/exploitation_button"
+                />
+
+
+            <Button
+                android:id="@+id/about_us_btn"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="16dp"
+                android:background="@drawable/dark_button"
+                android:textColor="#fff"
+                android:text="About Us."
+                android:layout_below="@+id/cannabis_button"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
