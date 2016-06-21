@@ -7,7 +7,7 @@
             android:title="Gang Affiliation" />
         <item
             android:id="@+id/dom_violence"
-            android:title="Domestic Violence In Teens" />
+            android:title="Domestic Abuse In Teens" />
         <item
             android:id="@+id/sex_exploit"
             android:title="Sexual Exploitation" />

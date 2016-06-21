@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -10,7 +12,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="What is domestic abuse? "
+            android:text="Who we are? "
             android:padding="10dp"
             android:gravity="center_horizontal"
             android:textSize="20dp"
@@ -21,98 +23,76 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
-            android:layout_marginLeft="10dp"
-            android:paddingRight="20dp"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="15dp"
             android:layout_marginTop="20dp"
-            android:text="Domestic abuse, which can be known as domestic violence is when a young person or adult is in a relationship where it is -"
+            android:text="Parents Voice was founded by Kelly Reid and Keeley Bennett who are parents and both have extensive knowledge and expertise working alongside young people and their families."
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
-            android:paddingRight="20dp"
+            android:paddingRight="15dp"
             android:layout_marginTop="10dp"
-            android:text="- Controlling behaviours (Actual whereabouts or social media interaction)"
+            android:text="The organisation works around four main tiers which can affect young people as they go through transition from primary and during secondary school years,they are as follows -"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
-            android:layout_marginLeft="15dp"
-            android:paddingRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:paddingRight="15dp"
             android:layout_marginTop="10dp"
-            android:text="- Displays threatening behaviour "
+            android:text="- Cannabis induced psychosis"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
-            android:layout_marginLeft="15dp"
-            android:paddingRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:paddingRight="15dp"
             android:layout_marginTop="10dp"
-            android:text="- Sexual abuse (Having sex without consent)"
+            android:text="- Sexual exploitation"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
-            android:layout_marginLeft="15dp"
-            android:paddingRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:paddingRight="15dp"
             android:layout_marginTop="10dp"
-            android:text="- Psychological abuse (Mind games)"
+            android:text="- Domestic violence in teen relationships"
             />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
-            android:layout_marginLeft="15dp"
-            android:paddingRight="20dp"
+            android:layout_marginLeft="25dp"
+            android:paddingRight="15dp"
             android:layout_marginTop="10dp"
-            android:text="- Physical Abuse"
+            android:text="- Gang affiliation"
             />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="14dp"
-            android:textColor="#000000"
-            android:gravity="left"
-            android:layout_marginLeft="15dp"
-            android:paddingRight="20dp"
-            android:layout_marginTop="10dp"
-            android:text="- Financial Exploitation (Controlling the persons money/or taking of money)"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="14dp"
-            android:textColor="#000000"
-            android:gravity="left"
-            android:layout_marginLeft="15dp"
-            android:paddingRight="20dp"
-            android:layout_marginTop="10dp"
-            android:text="- Emotional abuse (Putting down a partner, making them feel bad about themselves)"
-            />
+        
 
     </LinearLayout>
+
 </ScrollView>

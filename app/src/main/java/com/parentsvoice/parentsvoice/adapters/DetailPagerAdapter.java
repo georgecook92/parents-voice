@@ -4,6 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.parentsvoice.parentsvoice.about_us.About_Us_Info_Fragment;
+import com.parentsvoice.parentsvoice.about_us.About_Us_Sponsor_Fragment;
 import com.parentsvoice.parentsvoice.cannabis.Cannabis_Agencies_Fragment;
 import com.parentsvoice.parentsvoice.cannabis.Cannabis_Info_Fragment;
 import com.parentsvoice.parentsvoice.cannabis.Cannabis_Safeguard_Fragment;
@@ -51,7 +53,7 @@ public class DetailPagerAdapter extends FragmentStatePagerAdapter {
 
         }
 
-        else if (page.equals("Domestic Violence")) {
+        else if (page.equals("Domestic Abuse")) {
             switch (position) {
                 case 0:
                     Domestic_Violence_Info_Fragment tab1 = new Domestic_Violence_Info_Fragment();
@@ -94,6 +96,17 @@ public class DetailPagerAdapter extends FragmentStatePagerAdapter {
                 case 2:
                     Cannabis_Agencies_Fragment tab3 = new Cannabis_Agencies_Fragment();
                     return tab3;
+                default:
+                    return null;
+            }
+        } else if(page.equals("About Us")) {
+            switch (position) {
+                case 0:
+                    About_Us_Info_Fragment tab1 = new About_Us_Info_Fragment();
+                    return tab1;
+                case 1:
+                    About_Us_Sponsor_Fragment tab2 = new About_Us_Sponsor_Fragment();
+                    return tab2;
                 default:
                     return null;
             }

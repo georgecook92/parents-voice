@@ -1,14 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Information on Cannabis &amp; Mental Health"
-        android:layout_centerInParent="true"
-        android:gravity="center_horizontal"
-        android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is cannabis? "
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            />
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Cannabis is a naturally occurring drug that comes from the cannabis plant. It has two common strains which are cross bread to produce a form of cannabis known as skunk."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Cannabis is the most widely used illegal drug in the uk. It can come in many different forms including, brown dried leaves (known as marijuana or weed), dark brown resin known as hash. "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="The most commonly used form of cannabis in the uk is skunk which is often bright green, smelly and bud like."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="The main active chemical ingredient in cannabis is THC, this is the psychoactive part that causes the high sensation. THC attaches itself to the receptors in the brain which can alter your senses and induce paranoia and hallucination. Cannabis can have harmful long term effects."
+            android:layout_marginBottom="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paraphernalia (What is used when smoking cannabis)"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Cigarette papers (Rizla)"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Broken cigarette pieces"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Small Rolled card paper for roach (cigarette filter)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Grinder (small circular object looks like a small round trinket box, when pulled apart at the seam and opened you will see a maze like spikes, which when pushed together form a grinding machine which breaks up the cannabis buds."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is cannabis induced psychosis?"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Psychosis is a condition that affects the mind where there is a loss of contact with reality. Young people who use cannabis are doubling their risk of developing psychotic symptoms, mental health issues can continue into adulthood if cannabis use persists."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Research suggests that there is a strong link between cannabis and psychosis. This is due to high numbers in hospital admissions for cannabis induced psychosis amongst young people. This could be due to the high levels of THC and its reaction in a young developing brain."
+            />
+
+    </LinearLayout>
+</ScrollView>

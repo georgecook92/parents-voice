@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.parentsvoice.parentsvoice.about_us.About_Us_Activity;
 import com.parentsvoice.parentsvoice.adapters.DetailPagerAdapter;
 
 public class DetailActivity extends AppCompatActivity
@@ -52,12 +53,21 @@ public class DetailActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        //TABS
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
-        tabLayout.addTab(tabLayout.newTab().setText("Information"));
-        tabLayout.addTab(tabLayout.newTab().setText("Safe Guarding"));
-        tabLayout.addTab(tabLayout.newTab().setText("Agencies"));
-        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+
+        if (!screen_name.equals("About Us")) {
+            //TABS
+
+            tabLayout.addTab(tabLayout.newTab().setText("Information"));
+            tabLayout.addTab(tabLayout.newTab().setText("Safe Guarding"));
+            tabLayout.addTab(tabLayout.newTab().setText("Agencies"));
+            tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+        } else {
+            tabLayout.addTab(tabLayout.newTab().setText("About"));
+            tabLayout.addTab(tabLayout.newTab().setText("Sponsors"));
+            tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+        }
+
 
         System.out.println("Working");
 
@@ -104,14 +114,25 @@ public class DetailActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.gang_affiliation) {
-            // Handle the camera action
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("name", "Gang Affiliation");
+            startActivity(intent);
         } else if (id == R.id.dom_violence) {
-
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("name", "Domestic Abuse");
+            startActivity(intent);
         } else if (id == R.id.sex_exploit) {
-
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("name", "Sexual Exploitation");
+            startActivity(intent);
         } else if (id == R.id.cannabis_health) {
-
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("name", "Cannabis & Mental Health");
+            startActivity(intent);
         } else if (id == R.id.about_us) {
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("name", "About Us");
+            startActivity(intent);
 
         } else if (id == R.id.contact_us) {
 

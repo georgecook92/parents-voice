@@ -11,4 +11,10 @@
 
     <color name="darkOrange">#ea7a02</color>
     <color name="grey"> #e0e0e0 </color>
+
+    <color name="safeGreen"> #1db000 </color>
+    <color name="safeAmber"> #e3a704 </color>
+    <color name="safeRed"> #ed1212 </color>
+
+
 </resources>
