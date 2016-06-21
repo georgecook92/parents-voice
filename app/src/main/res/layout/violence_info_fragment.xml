@@ -27,6 +27,7 @@
             android:layout_marginLeft="10dp"
             android:paddingRight="20dp"
             android:layout_marginTop="20dp"
+            android:lineSpacingExtra="3dp"
             android:text="Domestic abuse, which can be known as domestic violence is when a young person or adult is in a relationship where it is -"
             />
 
@@ -39,6 +40,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Controlling behaviours (Actual whereabouts or social media interaction)"
             />
 
@@ -51,6 +53,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Displays threatening behaviour "
             />
 
@@ -63,6 +66,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Sexual abuse (Having sex without consent)"
             />
 
@@ -75,6 +79,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Psychological abuse (Mind games)"
             />
 
@@ -87,6 +92,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Physical Abuse"
             />
 
@@ -99,6 +105,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Financial Exploitation (Controlling the persons money/or taking of money)"
             />
 
@@ -111,6 +118,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Emotional abuse (Putting down a partner, making them feel bad about themselves)"
             />
 

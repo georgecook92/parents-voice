@@ -27,7 +27,7 @@ public class StartActivity extends AppCompatActivity {
             new Handler().postDelayed(new Runnable() {
                 public void run() {
                     Intent intent = new Intent(StartActivity.this, DetailActivity.class);
-                    intent.putExtra("name", "Gang Affiliation");
+                    intent.putExtra("name", "About Us");
                     startActivity(intent);
 
                 }

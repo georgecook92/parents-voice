@@ -34,6 +34,7 @@
             android:gravity="left"
             android:textColor="#000000"
             android:text="New group of friends"
+            android:lineSpacingExtra="3dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             />
@@ -46,6 +47,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Out more often than before"
             />
 
@@ -57,6 +59,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Don’t like you in their room"
             />
 
@@ -70,6 +73,7 @@
             android:layout_marginTop="20dp"
             android:background="@color/safeAmber"
             android:padding="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Seek advice/communicate with your young person"
             />
 
@@ -88,6 +92,7 @@
             android:textColor="#000000"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="Has new shoes/Trainers that have not been purchased by parent or family member"
             />
 
@@ -99,6 +104,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Significant change in behaviour and language (Slang and Tone)"
             />
 
@@ -110,6 +116,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Staying out later and later with new groups of friends"
             />
 
@@ -121,6 +128,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Becoming aggressive when you go to clean room"
             />
 
@@ -132,6 +140,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Cautious when going across borough with you"
             />
 
@@ -143,6 +152,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Phone that Young person says belongs to a friend but they have been carrying it around for sometime"
             />
 
@@ -165,12 +175,6 @@
             android:layout_gravity="center_horizontal"
             />
 
-
-
-
-
-
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -179,6 +183,7 @@
             android:textColor="#000000"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="Weapons found in room or on person"
             />
 
@@ -190,6 +195,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Getting arrested for petty crime"
             />
 
@@ -201,6 +207,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Smelling of cannabis"
             />
 
@@ -212,6 +219,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Large sums of money"
             />
 
@@ -224,6 +232,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
             android:text="Going missing for days at a time"
             />
 

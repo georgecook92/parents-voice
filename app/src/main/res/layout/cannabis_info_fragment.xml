@@ -27,6 +27,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="Cannabis is a naturally occurring drug that comes from the cannabis plant. It has two common strains which are cross bread to produce a form of cannabis known as skunk."
             />
 
@@ -39,6 +40,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="Cannabis is the most widely used illegal drug in the uk. It can come in many different forms including, brown dried leaves (known as marijuana or weed), dark brown resin known as hash. "
             />
 
@@ -51,6 +53,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="The most commonly used form of cannabis in the uk is skunk which is often bright green, smelly and bud like."
             />
 
@@ -63,6 +66,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="The main active chemical ingredient in cannabis is THC, this is the psychoactive part that causes the high sensation. THC attaches itself to the receptors in the brain which can alter your senses and induce paranoia and hallucination. Cannabis can have harmful long term effects."
             android:layout_marginBottom="20dp"
             />
@@ -89,6 +93,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="Cigarette papers (Rizla)"
             />
 
@@ -102,6 +107,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="Broken cigarette pieces"
             />
 
@@ -114,6 +120,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="Small Rolled card paper for roach (cigarette filter)"
             />
 
@@ -127,6 +134,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="3dp"
             android:text="Grinder (small circular object looks like a small round trinket box, when pulled apart at the seam and opened you will see a maze like spikes, which when pushed together form a grinding machine which breaks up the cannabis buds."
             />
 
@@ -150,6 +158,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="Psychosis is a condition that affects the mind where there is a loss of contact with reality. Young people who use cannabis are doubling their risk of developing psychotic symptoms, mental health issues can continue into adulthood if cannabis use persists."
             />
 
@@ -163,6 +172,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="3dp"
             android:text="Research suggests that there is a strong link between cannabis and psychosis. This is due to high numbers in hospital admissions for cannabis induced psychosis amongst young people. This could be due to the high levels of THC and its reaction in a young developing brain."
             />
 

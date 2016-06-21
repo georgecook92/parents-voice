@@ -29,6 +29,7 @@
             android:layout_marginLeft="10dp"
             android:paddingRight="20dp"
             android:layout_marginTop="20dp"
+            android:lineSpacingExtra="3dp"
             android:text="Often we can confuse a group of young people as a gang, this is not the case. However, the following signs can indicate a gang - "
             />
 
@@ -41,6 +42,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- 2 or more people of any age"
             />
 
@@ -53,6 +55,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- A group involved in criminal or violent activity "
             />
 
@@ -66,6 +69,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="3dp"
             android:text="- A group who govern a post code/ street or estate"
             />
 
@@ -90,6 +94,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- A sense of belonging"
             />
 
@@ -102,6 +107,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Peer pressure"
             />
 
@@ -114,6 +120,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Family substitute"
             />
 
@@ -138,6 +145,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Excitement or Power"
             />
 
@@ -162,6 +170,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="- Respect or status"
             android:layout_marginBottom="20dp"
             />

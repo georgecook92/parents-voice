@@ -29,6 +29,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="15dp"
             android:layout_marginTop="20dp"
+            android:lineSpacingExtra="3dp"
             android:text="Parents Voice was founded by Kelly Reid and Keeley Bennett who are parents and both have extensive knowledge and expertise working alongside young people and their families."
             />
 
@@ -41,6 +42,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="15dp"
             android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
             android:text="The organisation works around four main tiers which can affect young people as they go through transition from primary and during secondary school years,they are as follows -"
             />
 
@@ -89,9 +91,81 @@
             android:layout_marginLeft="25dp"
             android:paddingRight="15dp"
             android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
             android:text="- Gang affiliation"
             />
-        
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to book a session? "
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="3dp"
+            android:text="We know that parents are often the first to be blamed for their child’s behaviour, so it is our aim to provide a safe, secure, confidential and non-judgemental space."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Group sessions are based around a person centred holistic approach, this creates trust and cohesion and allows us to offer practical advice as well as providing referral pathways to the relevant services."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="3dp"
+            android:text="We are a confidential service and follow safeguarding policies and procedures, if you would like Parents Voice to attend your community centre, church or organisation please contact us."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="3dp"
+            android:text="If you would like to attend future holistic sessions please email us and we will add you to our data base and keep you informed of upcoming events and sessions as well as provide you with a monthly newsletter."
+            />
+
+
+
+
+
+
+
+
 
     </LinearLayout>
 
