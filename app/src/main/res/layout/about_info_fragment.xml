@@ -30,7 +30,7 @@
             android:paddingRight="15dp"
             android:layout_marginTop="20dp"
             android:lineSpacingExtra="3dp"
-            android:text="Parents Voice was founded by Kelly Reid and Keeley Bennett who are parents and both have extensive knowledge and expertise working alongside young people and their families."
+            android:text="Parents Voice was created by Parents for parents, the organisation works around four main Tiers which can affect young people as they go through transition from primary and during secondary school years, they are as follows…. "
             />
 
         <TextView
@@ -39,11 +39,10 @@
             android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="30dp"
             android:paddingRight="15dp"
             android:layout_marginTop="10dp"
-            android:lineSpacingExtra="3dp"
-            android:text="The organisation works around four main tiers which can affect young people as they go through transition from primary and during secondary school years,they are as follows -"
+            android:text="&#8226;    Cannabis induced psychosis"
             />
 
         <TextView
@@ -52,10 +51,10 @@
             android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
-            android:layout_marginLeft="25dp"
+            android:layout_marginLeft="30dp"
             android:paddingRight="15dp"
             android:layout_marginTop="10dp"
-            android:text="- Cannabis induced psychosis"
+            android:text="&#8226;    Sexual exploitation"
             />
 
         <TextView
@@ -64,10 +63,10 @@
             android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
-            android:layout_marginLeft="25dp"
+            android:layout_marginLeft="30dp"
             android:paddingRight="15dp"
             android:layout_marginTop="10dp"
-            android:text="- Sexual exploitation"
+            android:text="&#8226;    Domestic violence in teen relationships"
             />
 
         <TextView
@@ -76,23 +75,11 @@
             android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
-            android:layout_marginLeft="25dp"
-            android:paddingRight="15dp"
-            android:layout_marginTop="10dp"
-            android:text="- Domestic violence in teen relationships"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:textColor="#000000"
-            android:gravity="left"
-            android:layout_marginLeft="25dp"
+            android:layout_marginLeft="30dp"
             android:paddingRight="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
-            android:text="- Gang affiliation"
+            android:text="&#8226;    Gang affiliation"
             />
 
         <TextView
@@ -106,6 +93,12 @@
             android:background="@color/colorPrimary"
             />
 
+
+
+
+
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -116,7 +109,7 @@
             android:paddingRight="15dp"
             android:layout_marginTop="20dp"
             android:lineSpacingExtra="3dp"
-            android:text="We know that parents are often the first to be blamed for their child’s behaviour, so it is our aim to provide a safe, secure, confidential and non-judgemental space."
+            android:text="We know that parents are often the first to be blamed for their child’s behaviour, so it is our aim to provide a safe, secure, confidential and non-judgemental space in any community where parents/carers can be empowered and educated in regards to the increased risks within youth culture."
             />
 
         <TextView
@@ -141,30 +134,10 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="15dp"
             android:layout_marginTop="20dp"
-            android:lineSpacingExtra="3dp"
-            android:text="We are a confidential service and follow safeguarding policies and procedures, if you would like Parents Voice to attend your community centre, church or organisation please contact us."
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:textColor="#000000"
-            android:gravity="left"
-            android:layout_marginLeft="15dp"
-            android:paddingRight="15dp"
-            android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:lineSpacingExtra="3dp"
-            android:text="If you would like to attend future holistic sessions please email us and we will add you to our data base and keep you informed of upcoming events and sessions as well as provide you with a monthly newsletter."
+            android:text="We are a confidential service and follow safeguarding policies and procedures, if you would like Parents Voice to attend your community centre, church or organisation please contact us, if you would like to attend future holistic sessions please email us and we will add you to our data base and keep you informed of upcoming events and sessions as well as providing you with a newsletter every other month"
             />
-
-
-
-
-
-
-
 
 
     </LinearLayout>

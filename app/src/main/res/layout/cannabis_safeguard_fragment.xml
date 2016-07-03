@@ -17,8 +17,10 @@
             android:gravity="center_horizontal"
             android:background="@color/safeGreen"
             android:padding="15dp"
-            android:text="No Concern"
+            android:text="Green Signs Show Young Person May Be Smoking Cannabis"
             />
+
+
 
         <ImageView
             android:layout_width="match_parent"
@@ -99,7 +101,7 @@
             android:background="@color/safeAmber"
             android:padding="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Seek advice/communicate with your young person"
+            android:text="Amber Signs Show That Large Amounts Are Being Consumed. Seek advice/communicate with your young person"
             />
 
         <ImageView
@@ -121,17 +123,6 @@
             android:text="Lack of focus"
             />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:gravity="left"
-            android:textColor="#000000"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
-            android:lineSpacingExtra="3dp"
-            android:text="Fast heart rate"
-            />
 
         <TextView
             android:layout_width="match_parent"
@@ -179,6 +170,8 @@
             android:text="Stopping usual activities"
             />
 
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -188,7 +181,7 @@
             android:layout_marginTop="20dp"
             android:background="@color/safeRed"
             android:padding="15dp"
-            android:text="Seek advice immediately"
+            android:text="Red indicators are associated with psychosis, Seek advice immediately"
             />
 
         <ImageView
@@ -196,6 +189,17 @@
             android:layout_height="20dp"
             android:src="@drawable/red_triangle"
             android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="@color/safeRed"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/psychosis_title"
             />
 
         <TextView
@@ -263,9 +267,98 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginBottom="20dp"
             android:text="Anxiety"
             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="@color/safeRed"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/social_changes_title"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Severe decline of social relationship"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Social withdrawal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="Isolation"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Extreme suspiciousness of other people"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:orientation="vertical"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:text="If you think your young person is affected by any of the above, please contact one the Agency’s provided within the agency section."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:text="In extreme cases call 999"
+                />
+
+        </LinearLayout>
+
+
 
     </LinearLayout>
 </ScrollView>

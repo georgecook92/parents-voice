@@ -1,14 +1,402 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Agencies for gangs"
-        android:layout_centerInParent="true"
-        android:gravity="center_horizontal"
-        android:textSize="20dp"/>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
-</RelativeLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who Can I Contact? "
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/four_front_project_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/four_project_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="web"
+                android:text="@string/four_front_project_web"
+                />
+
+            <TextView
+                android:id="@+id/four_project_id"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/four_front_project_number"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chscb_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/chscb_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="email"
+                />
+
+            <TextView
+                android:id="@+id/chscb_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/chscb_number"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/godwin_lawson_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/godwin_lawson_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="email"
+                />
+
+            <TextView
+                android:id="@+id/godwin_lawson_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/godwin_lawson_number"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/family_lives_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="web"
+                android:id="@+id/family_lives_web"
+                />
+
+            <TextView
+                android:id="@+id/family_lives_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/family_lives_number"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gangs_line_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/gangs_line_web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="web"
+                />
+
+            <TextView
+                android:id="@+id/gangs_line_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/gangs_line_number"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nspcc_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="web"
+                android:id="@+id/nspcc_web"
+                />
+
+            <TextView
+                android:id="@+id/nspcc_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/nspcc_number"
+                />
+
+            <TextView
+                android:id="@+id/nspcc_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="email"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crib_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="web"
+                android:id="@+id/crib_web"
+                />
+
+            <TextView
+                android:id="@+id/crib_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="email"
+                />
+
+            <TextView
+                android:id="@+id/crib_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/crib_number"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

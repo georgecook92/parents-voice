@@ -7,5 +7,116 @@
 
     <string name="open_drawer">Open</string>
     <string name="close_drawer">Close</string>
+    
+    <!-- links -->
+    
+    <string name="four_front_project_title">The 4 Front Project </string>
+    <string name="four_front_project_web"><a href='http://4frontproject.org/'>http://4frontproject.org/</a></string>
+    <string name="four_front_project_number">07908 077917</string>
+    
+    <string name="chscb_title">The City &amp; Hackney Safeguarding Children Board </string>
+    <string name="chscb_web"><a href='http://www.chscb.org.uk/'>http://www.chscb.org.uk/</a></string>
+    <string name="chscb_number">0208 356 5500</string>
+    <string name="chscb_email"> <a href="mailto:chscb@hackney.gov.uk" target="_top">chscb@hackney.gov.uk </a> </string>
+
+    <string name="godwin_lawson_number">0203 751 7285</string>
+    <string name="godwin_lawson_title">Godwin Lawson Foundation</string>
+    <string name="godwin_lawson_email"> <a href="mailto:info@godwinlawson.org" target="_top">info@godwinlawson.org </a> </string>
+
+
+    <string name="family_lives_title">Family Lives</string>
+    <string name="family_lives_web"><a href='www.familylives.org.uk'>www.familylives.org.uk</a></string>
+    <string name="family_lives_number">0808 800 2222</string>
+
+    <string name="gangs_line_title">Gangs Line</string>
+    <string name="gangs_line_number">0800 032 9538</string>
+    <string name="gangs_line_web"><a href='www.gangsline.com'>www.gangsline.com</a></string>
+
+    <string name="nspcc_title">NSPCC Helpline</string>
+    <string name="nspcc_number">0808 800 5000</string>
+    <string name="nspcc_web"><a href='www.nspcc.org.uk'>www.nspcc.org.uk</a></string>
+    <string name="nspcc_email"><a href='mailto:help@nspcc.org.uk' target='_top'>help@nspcc.org.uk</a></string>
+
+
+    <string name="crib_title">The Crib</string>
+    <string name="crib_number">07813 901751</string>
+    <string name="crib_email"><a href='mailto:the.crib@hotmail.co.uk' target='_top' >the.crib@hotmail.co.uk</a></string>
+    <string name="crib_web"><a href='thecrib.org.uk'>thecrib.org.uk (Supported by Hackney IGU )</a></string>
+
+
+    <string name="mens_advice_title">Mens Advice Line</string>
+    <string name="mens_advice_number">0808 801 0327</string>
+    <string name="mens_advice_email"><a href='mailto:info@mensadviceline.org.uk' target='_top'>info@mensadviceline.org.uk</a></string>
+
+
+    <string name="domestic_violence_helpline_title"> National Domestic Violence Helpline</string>
+    <string name="domestic_violence_helpline_number">0808 200 0247</string>
+
+
+    <string name="daymer_title">Daymer</string>
+    <string name="daymer_number">020 7275 8440</string>
+    <string name="daymer_email"><a href='mailto:info@daymer.org' target='_top'>info@daymer.org</a></string>
+
+
+    <string name="broken_rainbow_title">Broken Rainbow</string>
+    <string name="broken_rainbow_number">0800 999 5428</string>
+    <string name="broken_rainbow_email"><a href='mailto:help@brokenrainbow.org.uk' target='_top' >help@brokenrainbow.org.uk</a></string>
+
+
+    <string name="childline_title">Childline</string>
+    <string name="childline_number">0800 1111</string>
+
+
+    <string name="mosac_title">Mosac</string>
+    <string name="mosac_number">0800 980 1958</string>
+    <string name="mosac_email"><a href='mailto:enquiries@mosac.org.uk' target='_top'>enquiries@mosac.org.uk</a></string>
+
+
+    <string name="victim_support_title">Victim Support</string>
+    <string name="victim_support_number">0808 168 9111</string>
+
+
+    <string name="hscf_title">Hackney Health &amp; Social Care Forum</string>
+    <string name="hscf_number">020 7923 8361</string>
+    <string name="hscf_email"><a href='hscf@hcvs.org.uk' target='_top'>hscf@hcvs.org.uk</a></string>
+
+
+    <string name="nia_title">Nia Project</string>
+    <string name="nia_web"><a href='www.niaendingviolence.org.uk'>www.niaendingviolence.org.uk</a></string>
+
+
+
+    <string name="frank_title">Frank</string>
+    <string name="frank_number">0207 654 8400</string>
+
+
+    <string name="young_misuse_title">Young Hackney Substance Misuse Service</string>
+    <string name="young_misuse_number">020 8356 7377</string>
+    <string name="young_misuse_email"><a href='mailto:yhsms@hackney.gov.uk' target='_top' >yhsms@hackney.gov.uk</a></string>
+
+
+    <string name="lifeline_title">Lifeline Hackney Community Drug Service (CDS)</string>
+    <string name="lifeline_number">020 8985 3757</string>
+
+
+    <string name="hackney_misuse_title">Hackney Substance Misuse Team</string>
+    <string name="hackney_misuse_number">0208 356 4206</string>
+
+
+    <string name="urban_75_title">Urban 75 </string>
+    <string name="urban_75_number">0800 77 66 00</string>
+    <string name="urban_75_web"><a href='www.urban75.com'>www.urban75.com</a></string>
+
+
+    <string name="mind_title">Mind</string>
+    <string name="mind_web"><a href='www.mind.org.uk'>www.mind.org.uk</a></string>
+
+
+    <string name="young_minds_title">Young Minds</string>
+    <string name="young_minds_web"><a href='www.youngminds.org.uk'>www.youngminds.org.uk</a></string>
+
+
+    <string name="psychosis_title"><u>Signs Of Psychosis</u></string>
+    <string name="social_changes_title"><u>Social Changes</u></string>
 
 </resources>

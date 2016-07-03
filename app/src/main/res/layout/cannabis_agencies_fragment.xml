@@ -1,14 +1,313 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Agencies for Cannabis &amp; Mental Health"
-        android:layout_centerInParent="true"
-        android:gravity="center_horizontal"
-        android:textSize="20dp"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who Can I Contact? "
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frank_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/frank_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:background="@color/grey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/young_misuse_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/young_misuse_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/young_misuse_number"
+                />
+
+            <TextView
+                android:id="@+id/young_misuse_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="email"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lifeline_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/lifeline_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/lifeline_number"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:background="@color/grey"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hackney_misuse_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/hackney_misuse_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/hackney_misuse_number"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urban_75_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/urban_75_number"
+                android:autoLink="all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/urban_75_number"
+                />
+
+            <TextView
+                android:id="@+id/urban_75_web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="web"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:background="@color/grey"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mind_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/mind_web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="web"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/young_minds_title"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/young_mind_web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="3dp"
+                android:autoLink="web"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -20,17 +20,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".OptionsActivity"
-            android:label="@string/title_activity_options"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".DetailActivity"
             android:label="@string/title_activity_detail"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".about_us.About_Us_Activity"
-            android:label="@string/title_activity_about__us_"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

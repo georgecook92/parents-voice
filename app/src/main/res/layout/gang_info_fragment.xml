@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
@@ -49,7 +49,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
@@ -62,7 +62,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
@@ -88,7 +88,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
@@ -101,7 +101,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
@@ -114,7 +114,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
@@ -127,7 +127,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
@@ -139,7 +139,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
@@ -152,7 +152,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
@@ -164,7 +164,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="15dp"
             android:textColor="#000000"
             android:gravity="left"
             android:layout_marginLeft="15dp"
