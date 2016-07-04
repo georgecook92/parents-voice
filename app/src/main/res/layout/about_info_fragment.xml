@@ -9,6 +9,147 @@
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/question_application"
+            android:background="@color/colorPrimaryDark"
+            android:padding="20dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:text="Do you find this useful?"
+                android:textSize="18dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/question_no"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Not really"
+                    android:textSize="16dp"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="15dp"/>
+
+                <Button
+                    android:id="@+id/question_yes"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Yes!"
+                    android:textSize="16dp"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/rate_application"
+            android:background="@color/colorPrimaryDark"
+            android:padding="20dp"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:text="How about a rating on the App Store, then?"
+                android:textSize="18dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/rating_no"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="No, thanks"
+                    android:textSize="16dp"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="15dp"/>
+
+                <Button
+                    android:id="@+id/rating_yes"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Ok, sure"
+                    android:textSize="16dp"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/feedback_application"
+            android:background="@color/colorPrimaryDark"
+            android:padding="20dp"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:text="Would you mind giving us some feedback?"
+                android:textSize="18dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/feedback_no"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="No, thanks"
+                    android:textSize="16dp"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="15dp"/>
+
+                <Button
+                    android:id="@+id/feedback_yes"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Ok, sure"
+                    android:textSize="16dp"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -94,11 +235,6 @@
             />
 
 
-
-
-
-
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -136,7 +272,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:lineSpacingExtra="3dp"
-            android:text="We are a confidential service and follow safeguarding policies and procedures, if you would like Parents Voice to attend your community centre, church or organisation please contact us, if you would like to attend future holistic sessions please email us and we will add you to our data base and keep you informed of upcoming events and sessions as well as providing you with a newsletter every other month"
+            android:text="We are a confidential service and follow safeguarding policies and procedures, if you would like Parents Voice to attend your community centre, church or organisation please contact us, if you would like to attend future holistic sessions please email us and we will add you to our database and keep you informed of upcoming events and sessions as well as providing you with a newsletter every other month"
             />
 
 

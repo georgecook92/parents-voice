@@ -17,7 +17,7 @@
                 android:gravity="center_horizontal"
                 android:background="@color/safeGreen"
                 android:padding="15dp"
-                android:text="No Concern"
+                android:text="Common Adolescent Behaviour"
                 />
 
         <ImageView
@@ -154,7 +154,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@color/safeRed"
                 android:padding="15dp"
-                android:text="Seek advice immediately"
+                android:text="Contact An Agency/Seek advice immediately"
                 />
 
         <ImageView

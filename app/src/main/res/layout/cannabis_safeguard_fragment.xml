@@ -17,7 +17,7 @@
             android:gravity="center_horizontal"
             android:background="@color/safeGreen"
             android:padding="15dp"
-            android:text="Green Signs Show Young Person May Be Smoking Cannabis"
+            android:text="Young Person May Be Smoking Cannabis"
             />
 
 
@@ -101,7 +101,7 @@
             android:background="@color/safeAmber"
             android:padding="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Amber Signs Show That Large Amounts Are Being Consumed. Seek advice/communicate with your young person"
+            android:text="Large Amounts Are Being Consumed. Seek advice/communicate with your young person"
             />
 
         <ImageView
@@ -181,7 +181,7 @@
             android:layout_marginTop="20dp"
             android:background="@color/safeRed"
             android:padding="15dp"
-            android:text="Red indicators are associated with psychosis, Seek advice immediately"
+            android:text="Associated with psychosis and more serious social changes, Seek advice immediately"
             />
 
         <ImageView
@@ -276,7 +276,7 @@
             android:textSize="16dp"
             android:gravity="left"
             android:textColor="@color/safeRed"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
             android:text="@string/social_changes_title"
             />

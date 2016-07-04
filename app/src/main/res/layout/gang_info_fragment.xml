@@ -30,7 +30,32 @@
             android:paddingRight="20dp"
             android:layout_marginTop="20dp"
             android:lineSpacingExtra="3dp"
-            android:text="Often we can confuse a group of young people as a gang, this is not the case. However, the following signs can indicate a gang - "
+            android:text="Please be mindful that often we can confuse a group of young people as a gang because they wear hooded tops, this is not the case - it is an assumption that people make."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Gangs are not linked to a certain gender, culture or ethnicity as gangs across the country are identified by area pockets and criminal activity. Females and Males can be gang affiliated."
+            />
+
+        <TextView
+            android:id="@+id/gang_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:paddingRight="20dp"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="3dp"
             />
 
         <TextView
@@ -43,7 +68,21 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- 2 or more people of any age"
+            android:text="&#8226;    The most common age for a young person to get involved with a gang is 12/13. Although, we are aware that this can vary from older or younger"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="&#8226;    2 or more people of any age"
             />
 
         <TextView
@@ -56,7 +95,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- A group involved in criminal or violent activity "
+            android:text="&#8226;    A group involved in criminal or violent activity "
             />
 
         <TextView
@@ -70,7 +109,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:lineSpacingExtra="3dp"
-            android:text="- A group who govern a post code/ street or estate"
+            android:text="&#8226;    A group who govern a postcode/street or estate"
             />
 
 
@@ -95,7 +134,35 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- A sense of belonging"
+            android:text="&#8226;    A sense of belonging"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="&#8226;    To make new friends"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="&#8226;    Peer pressure"
             />
 
         <TextView
@@ -108,7 +175,19 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- Peer pressure"
+            android:text="&#8226;    Family substitute"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="&#8226;    Protection"
             />
 
         <TextView
@@ -121,7 +200,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- Family substitute"
+            android:text="&#8226;    Excitement or Power"
             />
 
         <TextView
@@ -133,7 +212,7 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
-            android:text="- Protection"
+            android:text="&#8226;    Money"
             />
 
         <TextView
@@ -145,35 +224,92 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
-            android:lineSpacingExtra="3dp"
-            android:text="- Excitement or Power"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:textColor="#000000"
-            android:gravity="left"
-            android:layout_marginLeft="15dp"
-            android:paddingRight="20dp"
-            android:layout_marginTop="10dp"
-            android:text="- Money"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:textColor="#000000"
-            android:gravity="left"
-            android:layout_marginLeft="15dp"
-            android:paddingRight="20dp"
-            android:layout_marginTop="10dp"
-            android:lineSpacingExtra="3dp"
-            android:text="- Respect or status"
             android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="3dp"
+            android:text="&#8226;    Respect or status"
             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gang_vigilant_title"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Many young people are making grime music videos which have a gang theme to them. These are then uploaded onto YouTube, using various channels. Songs are also being posted on Soundcloud, which is a new way of distributing music. "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Young people will often ask their friends to appear alongside them in the video, on occasion there will be up to 20-30 youths in the video."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="When appearing in the videos they can face a high risk of possibly being associated with that gang, even if they appear in the background of the video they are at risk of gang rivalry."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="We ask parents to be mindful of other forms of social media regarding their child/young person’s messaging. Also the use of short videos on Snapchat and Periscope which have been the cause of numerous altercations between rival gangs."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Parents should ensure that they have access to their child/young person’s social media or have a close family friend have access so you are able to monitor."
+            />
+
+
+
+
+
 
     </LinearLayout>
 </ScrollView>

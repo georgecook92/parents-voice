@@ -10,7 +10,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="What is domestic abuse? "
+            android:text="What is domestic abuse within a teen relationship? "
             android:padding="10dp"
             android:gravity="center_horizontal"
             android:textSize="20dp"
@@ -28,7 +28,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="20dp"
             android:lineSpacingExtra="3dp"
-            android:text="Domestic abuse, which can be known as domestic violence is when a young person or adult is in a relationship where it is -"
+            android:text="Domestic abuse, which is widely known as domestic violence, is when a young person or adult is in a relationship where it is -"
             />
 
         <TextView
@@ -41,7 +41,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- Controlling behaviours (Actual whereabouts or social media interaction)"
+            android:text="&#8226;    Controlling behaviours (A persons whereabouts, social interaction and or social media)"
             />
 
         <TextView
@@ -54,7 +54,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- Displays threatening behaviour "
+            android:text="&#8226;    Displays threatening behaviour (Aggressive shouting or threats) "
             />
 
         <TextView
@@ -67,7 +67,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- Sexual abuse (Having sex without consent)"
+            android:text="&#8226;    Sexual abuse (Having sex without consent)"
             />
 
         <TextView
@@ -80,7 +80,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- Psychological abuse (Mind games)"
+            android:text="&#8226;    Psychological abuse (Mind games)"
             />
 
         <TextView
@@ -93,7 +93,7 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- Physical Abuse"
+            android:text="&#8226;    Physical Abuse (Punching, slapping, pinching or pushing)"
             />
 
         <TextView
@@ -106,7 +106,46 @@
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="- Financial Exploitation (Controlling the persons money/or taking of money)"
+            android:text="&#8226;    Financial Exploitation (Controlling the persons money/or taking of money)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="&#8226;     Emotional abuse (Putting down a partner, making them feel bad about themselves)"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="We find in a number of young people’s relationships, that it is the controlling behaviour that is having the largest effect and is the lead to violent behaviours. It is important as parents that we are aware of the signs to help better safeguard our young people."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Often people will look out for cuts and bruises but an extreme change in behavior and appearance are key signs to abuse."
             />
 
         <TextView
@@ -120,8 +159,30 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="20dp"
             android:lineSpacingExtra="3dp"
-            android:text="- Emotional abuse (Putting down a partner, making them feel bad about themselves)"
+            android:text="These behaviours happen within some teen relationships, this has nothing to do with a culture, gender or sexual preference and can happen within any relationship, we must not assume that it is only girls who suffer in silence as a large number of young boys do not report abuse from a partner."
             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grey">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:layout_marginLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="If you have concerns regarding a young person whom may be at risk of ‘honour' based violence, female genital mutilation (FGM) and or forced marriage, both of which are illegal in this country. Please seek advice through NSPCC and or www.equalitynow.org/fgm"
+                />
+
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>

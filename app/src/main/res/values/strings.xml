@@ -16,7 +16,8 @@
     
     <string name="chscb_title">The City &amp; Hackney Safeguarding Children Board </string>
     <string name="chscb_web"><a href='http://www.chscb.org.uk/'>http://www.chscb.org.uk/</a></string>
-    <string name="chscb_number">0208 356 5500</string>
+    <string name="chscb_number">0208 356 5500 </string>
+    <string name="chscb_number_outofhours">0208 356 2710 (Out Of Hours)  </string>
     <string name="chscb_email"> <a href="mailto:chscb@hackney.gov.uk" target="_top">chscb@hackney.gov.uk </a> </string>
 
     <string name="godwin_lawson_number">0203 751 7285</string>
@@ -118,5 +119,17 @@
 
     <string name="psychosis_title"><u>Signs Of Psychosis</u></string>
     <string name="social_changes_title"><u>Social Changes</u></string>
+
+
+    <string name="exploit_perps_bold">&#8226;    Can you identify the perpetrators who are involved?</string>
+    <string name="exploit_perps"> This cannot be identified by age, culture, race, gender, sexuality or region </string>
+
+    <string name="exploit_target_bold">&#8226;    Who are targeted?</string>
+    <string name="exploit_target"> There is no sure indicator although vulnerable young people are at higher risk. This again has no relevance to your child/young person age, culture, race, gender, sexuality or region</string>
+
+
+    <string name="gang_title">What is a gang?</string>
+    <string name="gang_vigilant_title">We ask parents to be vigilant when your child/children are using: </string>
+    <string name="social_media_title">YouTube and Social Media</string>
 
 </resources>
