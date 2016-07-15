@@ -17,7 +17,7 @@
             android:gravity="center_horizontal"
             android:background="@color/safeGreen"
             android:padding="15dp"
-            android:text="No Concern"
+            android:text="Common Adolescent Behaviour"
             />
 
         <ImageView
@@ -33,7 +33,7 @@
             android:textSize="16dp"
             android:gravity="left"
             android:textColor="#000000"
-            android:text="New group of friends"
+            android:text="&#8226;    New group of friends"
             android:lineSpacingExtra="3dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
@@ -48,7 +48,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Out more often than before"
+            android:text="&#8226;    Out more often than before"
             />
 
         <TextView
@@ -60,7 +60,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Don’t like you in their room"
+            android:text="&#8226;    Don’t like you in their room"
             />
 
 
@@ -93,7 +93,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="Has new shoes/Trainers that have not been purchased by parent or family member"
+            android:text="&#8226;    Has new shoes/Trainers that have not been purchased by parent or family member"
             />
 
         <TextView
@@ -105,7 +105,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Significant change in behaviour and language (Slang and Tone)"
+            android:text="&#8226;    Significant change in behaviour and language (Slang and Tone)"
             />
 
         <TextView
@@ -117,7 +117,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Staying out later and later with new groups of friends"
+            android:text="&#8226;    Staying out later and later with new groups of friends"
             />
 
         <TextView
@@ -129,7 +129,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Becoming aggressive when you go to clean room"
+            android:text="&#8226;    Becoming aggressive when you go to clean room"
             />
 
         <TextView
@@ -141,7 +141,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Cautious when going across borough with you"
+            android:text="&#8226;    Cautious when going across borough with you or alone"
             />
 
         <TextView
@@ -153,7 +153,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Phone that Young person says belongs to a friend but they have been carrying it around for sometime"
+            android:text="&#8226;    Phone that Young person says belongs to a friend but they have been carrying it around for sometime"
             />
 
         <TextView
@@ -165,7 +165,7 @@
             android:layout_marginTop="20dp"
             android:background="@color/safeRed"
             android:padding="15dp"
-            android:text="Seek advice immediately"
+            android:text="Contact An Agency/Seek advice immediately"
             />
 
         <ImageView
@@ -184,7 +184,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="Weapons found in room or on person"
+            android:text="&#8226;    Weapons found in room or on person"
             />
 
         <TextView
@@ -196,7 +196,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Getting arrested for petty crime"
+            android:text="&#8226;    Getting arrested for petty crime"
             />
 
         <TextView
@@ -208,7 +208,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Smelling of cannabis"
+            android:text="&#8226;    Smelling of cannabis"
             />
 
         <TextView
@@ -220,7 +220,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Large sums of money"
+            android:text="&#8226;    Large sums of money"
             />
 
         <TextView
@@ -233,7 +233,7 @@
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Going missing for days at a time"
+            android:text="&#8226;    Going missing for days at a time"
             />
 
 

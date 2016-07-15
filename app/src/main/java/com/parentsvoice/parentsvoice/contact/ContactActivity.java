@@ -1,37 +1,37 @@
-package com.parentsvoice.parentsvoice;
+package com.parentsvoice.parentsvoice.contact;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.TabLayout;
 import android.support.v4.view.GravityCompat;
-import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.StyleSpan;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import com.parentsvoice.parentsvoice.adapters.DetailPagerAdapter;
-import com.parentsvoice.parentsvoice.contact.ContactActivity;
+import com.parentsvoice.parentsvoice.DetailActivity;
+import com.parentsvoice.parentsvoice.R;
 
-public class DetailActivity extends AppCompatActivity
+/**
+ * Created by georgecook on 05/07/16.
+ */
+public class ContactActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener{
 
-    private String screen_name;
-
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
-
-        Intent intent = getIntent();
-        screen_name = intent.getStringExtra("name");
-        System.out.println(screen_name);
-
+        setContentView(R.layout.contact_layout);
 
         //top toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -39,7 +39,7 @@ public class DetailActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         TextView title = (TextView) findViewById(R.id.toolbar_title);
-        title.setText(screen_name);
+        title.setText("Contact Us");
         title.setTextColor(Color.parseColor("#ffffff"));
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -51,48 +51,54 @@ public class DetailActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
 
-        if (!screen_name.equals("About Us")) {
-            //TABS
-
-            tabLayout.addTab(tabLayout.newTab().setText("Information"));
-            tabLayout.addTab(tabLayout.newTab().setText("Safe Guarding"));
-            tabLayout.addTab(tabLayout.newTab().setText("Agencies"));
-            tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-        } else {
-            tabLayout.addTab(tabLayout.newTab().setText("About"));
-            tabLayout.addTab(tabLayout.newTab().setText("Sponsors"));
-            tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
-        }
+        //TextView gangTitle = (TextView) inflatedView.findViewById(R.id.gang_title);
+        //final SpannableStringBuilder gangTitleString = new SpannableStringBuilder( getString(R.string.gang_title) );
+        //final StyleSpan bss = new StyleSpan(android.graphics.Typeface.BOLD); // Span to make text bold
+        //gangTitleString.setSpan(bss, 0, 20, Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+        //gangTitle.setText(gangTitleString);
 
 
-        System.out.println("Working");
 
-        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
 
-        final DetailPagerAdapter adapter = new DetailPagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount(), screen_name);
 
-        viewPager.setAdapter(adapter);
-        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+
+        TextView contactEmailTitle = (TextView) findViewById(R.id.contact_email_title);
+        final SpannableStringBuilder contactEmailString = new SpannableStringBuilder( getString(R.string.contact_email_title) );
+        final StyleSpan bss = new StyleSpan(android.graphics.Typeface.BOLD); // Span to make text bold
+        contactEmailString.setSpan(bss,0,8,Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+        contactEmailTitle.setText(contactEmailString);
+
+        TextView contactEmail = (TextView) findViewById(R.id.contact_email);
+        contactEmail.setText(Html.fromHtml(getString(R.string.contact_email)));
+        contactEmail.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                viewPager.setCurrentItem(tab.getPosition());
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
+            public void onClick(View v) {
+                Intent i = new Intent(Intent.ACTION_SEND);
+                i.setType("message/rfc822");
+                i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"parentsvoice526@gmail.com"});
+                try {
+                    startActivity(Intent.createChooser(i, "Send mail..."));
+                } catch (android.content.ActivityNotFoundException ex) {
+                    Toast.makeText(ContactActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
 
+
+        TextView contactNumberTitle = (TextView) findViewById(R.id.contact_number_title);
+        final SpannableStringBuilder contactNumberString = new SpannableStringBuilder( getString(R.string.contact_number_title) );
+        contactNumberString.setSpan(bss, 0, 8, Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+        contactNumberTitle.setText(contactNumberString);
+
+        TextView contactNumber = (TextView) findViewById(R.id.contact_number);
+        contactNumber.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                call("02072544732");
+            }
+        });
     }
 
     @Override
@@ -140,6 +146,15 @@ public class DetailActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void call(String number) {
+
+        String uri = "tel:" + number.trim();
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse(uri));
+        startActivity(intent);
+
     }
 
 }

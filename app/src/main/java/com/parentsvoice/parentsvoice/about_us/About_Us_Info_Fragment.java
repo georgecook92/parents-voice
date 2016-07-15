@@ -4,10 +4,16 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.text.Html;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
+import android.text.style.StyleSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -84,9 +90,10 @@ public class About_Us_Info_Fragment extends Fragment {
         feedback_yes_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                feedbackApplicationlayout.setVisibility(View.GONE);
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("message/rfc822");
-                i.putExtra(Intent.EXTRA_EMAIL, new String[]{"recipient@example.com"});
+                i.putExtra(Intent.EXTRA_EMAIL, new String[]{"parentsvoice526@gmail.com"});
                 i.putExtra(Intent.EXTRA_SUBJECT, "Feedback For Parents Voice Android Application");
 
                 try {
@@ -136,6 +143,34 @@ public class About_Us_Info_Fragment extends Fragment {
                 editor.commit();
             }
         });
+
+
+
+        //spans for bold and colour
+
+
+        TextView objective_title = (TextView) inflatedView.findViewById(R.id.objective_title);
+
+        final SpannableStringBuilder objectiveBuilder = new SpannableStringBuilder(getString(R.string.objective_title));
+
+        final StyleSpan bss = new StyleSpan(android.graphics.Typeface.BOLD); // Span to make text bold
+        final ForegroundColorSpan fcs = new ForegroundColorSpan(ContextCompat.getColor(getActivity(), R.color.colorPrimary));
+
+        objectiveBuilder.setSpan(bss, 0, 20, Spannable.SPAN_INCLUSIVE_INCLUSIVE); // make first 4 characters Bold
+        objectiveBuilder.setSpan(fcs, 0, 20, Spannable.SPAN_INCLUSIVE_INCLUSIVE); // make first 4 characters Bold
+
+        objective_title.setText(objectiveBuilder);
+
+
+
+        TextView aim_title = (TextView) inflatedView.findViewById(R.id.aims_title);
+
+        final SpannableStringBuilder aimBuilder = new SpannableStringBuilder(getString(R.string.aims_title));
+
+        aimBuilder.setSpan(bss, 0, 33, Spannable.SPAN_INCLUSIVE_INCLUSIVE); // make first 4 characters Bold
+        aimBuilder.setSpan(fcs, 0, 33, Spannable.SPAN_INCLUSIVE_INCLUSIVE); // make first 4 characters Bold
+
+        aim_title.setText(aimBuilder);
 
 
 

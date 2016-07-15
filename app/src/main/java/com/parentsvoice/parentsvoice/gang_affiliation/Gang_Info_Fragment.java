@@ -25,7 +25,7 @@ public class Gang_Info_Fragment extends Fragment {
         TextView gangTitle = (TextView) inflatedView.findViewById(R.id.gang_title);
         final SpannableStringBuilder gangTitleString = new SpannableStringBuilder( getString(R.string.gang_title) );
         final StyleSpan bss = new StyleSpan(android.graphics.Typeface.BOLD); // Span to make text bold
-        gangTitleString.setSpan(bss, 0, 14, Spannable.SPAN_INCLUSIVE_INCLUSIVE);
+        gangTitleString.setSpan(bss, 0, 20, Spannable.SPAN_INCLUSIVE_INCLUSIVE);
         gangTitle.setText(gangTitleString);
 
         return inflatedView;

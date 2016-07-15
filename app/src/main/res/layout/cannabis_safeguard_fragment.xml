@@ -36,7 +36,7 @@
             android:textSize="16dp"
             android:gravity="left"
             android:textColor="#000000"
-            android:text="Red bloodshot eyes"
+            android:text="&#8226;    Red bloodshot eyes"
             android:lineSpacingExtra="3dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
@@ -51,7 +51,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Smelly clothes"
+            android:text="&#8226;    Smelly clothes"
             />
 
         <TextView
@@ -63,7 +63,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Increase craving for snacks"
+            android:text="&#8226;    Increase craving for snacks"
             />
 
         <TextView
@@ -75,7 +75,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Laughing fits"
+            android:text="&#8226;    Laughing fits"
             />
 
         <TextView
@@ -87,7 +87,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Laid back slow response"
+            android:text="&#8226;    Laid back slow response"
             />
 
 
@@ -120,7 +120,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:lineSpacingExtra="3dp"
-            android:text="Lack of focus"
+            android:text="&#8226;    Lack of focus"
             />
 
 
@@ -132,7 +132,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
-            android:text="Confusion"
+            android:text="&#8226;    Confusion"
             />
 
         <TextView
@@ -143,19 +143,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
-            android:text="Paranoia"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:gravity="left"
-            android:textColor="#000000"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
-            android:lineSpacingExtra="3dp"
-            android:text="Unusually talkative"
+            android:text="&#8226;    Paranoia"
             />
 
         <TextView
@@ -167,7 +155,19 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Stopping usual activities"
+            android:text="&#8226;    Unusually talkative"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:lineSpacingExtra="3dp"
+            android:text="&#8226;    Stopping usual activities"
             />
 
 
@@ -210,7 +210,7 @@
             android:textColor="#000000"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
-            android:text="Delusions"
+            android:text="&#8226;    Delusions"
             />
 
         <TextView
@@ -221,19 +221,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
-            android:text="Hallucinations"
-            />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="16dp"
-            android:gravity="left"
-            android:textColor="#000000"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
-            android:lineSpacingExtra="3dp"
-            android:text="Disorganized thinking and speaking"
+            android:text="&#8226;    Hallucinations"
             />
 
         <TextView
@@ -245,7 +233,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:lineSpacingExtra="3dp"
-            android:text="Decreased motivation"
+            android:text="&#8226;    Disorganized thinking and speaking"
             />
 
         <TextView
@@ -256,7 +244,8 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
-            android:text="Depression"
+            android:lineSpacingExtra="3dp"
+            android:text="&#8226;    Decreased motivation"
             />
 
         <TextView
@@ -267,7 +256,18 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
-            android:text="Anxiety"
+            android:text="&#8226;    Depression"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="&#8226;    Anxiety"
             />
 
         <TextView
@@ -289,7 +289,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
-            android:text="Severe decline of social relationship"
+            android:text="&#8226;    Severe decline of social relationship"
             />
 
         <TextView
@@ -300,7 +300,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
-            android:text="Social withdrawal"
+            android:text="&#8226;    Social withdrawal"
             />
 
         <TextView
@@ -311,7 +311,7 @@
             android:textColor="#000000"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
-            android:text="Isolation"
+            android:text="&#8226;    Isolation"
             />
 
         <TextView
@@ -323,7 +323,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:layout_marginBottom="10dp"
-            android:text="Extreme suspiciousness of other people"
+            android:text="&#8226;    Extreme suspiciousness of other people"
             />
 
         <LinearLayout

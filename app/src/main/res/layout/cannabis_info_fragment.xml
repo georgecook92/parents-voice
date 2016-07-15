@@ -171,10 +171,24 @@
             android:layout_marginLeft="15dp"
             android:paddingRight="20dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="20dp"
             android:lineSpacingExtra="3dp"
             android:text="Grinder (small circular object looks like a small round trinket box, when pulled apart at the seam and opened you will see a maze like spikes, which when pushed together form a grinding machine which breaks up the cannabis buds."
             />
+
+        <TextView
+            android:id="@+id/spice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="3dp"
+            />
+
 
     </LinearLayout>
 </ScrollView>

@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:text="Do you find this useful?"
+                android:text="Is our app useful?"
                 android:textSize="18dp"
                 android:layout_marginBottom="10dp"/>
 
@@ -222,6 +222,105 @@
             android:layout_marginBottom="20dp"
             android:text="&#8226;    Gang affiliation"
             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="Parents Voice urges all parents/carers to monitor as best they can the contents of their child/young person’s room and social media."
+            />
+
+        <TextView
+            android:id="@+id/aims_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="HELP PARENTS BETTER UNDERSTAND THE RISKS OF YOUTH CULTURE"
+            />
+
+        <TextView
+            android:id="@+id/objective_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="30dp"
+            android:paddingRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="&#8226;    Engage, enable and empower parents to better understand the risks associated with youth culture"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="30dp"
+            android:paddingRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:text="&#8226;    Advise on ways to spot the signs at an early stage and how to intervene"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="30dp"
+            android:paddingRight="15dp"
+            android:text="&#8226;    To provide information of relevant organisations parents/carers can contact for advice, guidance and or immediate help and support for them and their child/young person"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="left"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="The Parents Voice Tool Kit offers suggestions on ways to identify potential risks and advice on where to go for further support.  If you have any concerns about your child/young person, please talk to someone that is qualified in the area of concern as outlined on the agency page."
+            />
+
+
+
 
         <TextView
             android:layout_width="match_parent"

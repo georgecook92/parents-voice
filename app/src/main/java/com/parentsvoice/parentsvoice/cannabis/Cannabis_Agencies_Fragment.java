@@ -94,6 +94,16 @@ public class Cannabis_Agencies_Fragment extends Fragment {
         TextView youngMindWeb = (TextView) inflatedView.findViewById(R.id.young_mind_web);
         youngMindWeb.setText(Html.fromHtml(getString(R.string.young_minds_web)));
 
+        /* family action */
+
+        TextView familyActionWeb = (TextView) inflatedView.findViewById(R.id.family_action_web);
+        familyActionWeb.setText(Html.fromHtml(getString(R.string.family_action_web)));
+
+        /* camhs */
+
+        TextView camhsWeb = (TextView) inflatedView.findViewById(R.id.camhs_web);
+        camhsWeb.setText(Html.fromHtml(getString(R.string.camhs_web)));
+
 
         return inflatedView;
     }

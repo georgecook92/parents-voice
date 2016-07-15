@@ -34,7 +34,7 @@
                 android:textSize="16dp"
                 android:gravity="left"
                 android:textColor="#000000"
-                android:text="Has a new Boyfriend or Girlfriend"
+                android:text="&#8226;    Has a new Boyfriend or Girlfriend"
                 android:lineSpacingExtra="3dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
@@ -49,7 +49,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
                 android:lineSpacingExtra="3dp"
-                android:text="Spends most of their time on the phone or with their new partner"
+                android:text="&#8226;    Spends most of their time on the phone or with their new partner"
                 />
 
             <TextView
@@ -61,7 +61,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
                 android:lineSpacingExtra="3dp"
-                android:text="Talks about nothing else"
+                android:text="&#8226;    Talks about nothing else"
                 />
 
 
@@ -94,7 +94,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
                 android:lineSpacingExtra="3dp"
-                android:text="Seems a little anxious when Girlfriend /Boyfriend calls"
+                android:text="&#8226;    Seems a little anxious when Girlfriend /Boyfriend calls"
                 />
 
             <TextView
@@ -106,7 +106,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
                 android:lineSpacingExtra="3dp"
-                android:text="Doesn’t see friends as much"
+                android:text="&#8226;    Doesn’t see friends as much"
                 />
 
             <TextView
@@ -118,7 +118,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
                 android:lineSpacingExtra="3dp"
-                android:text="Anxious when coming into contact with friends or family while with partner"
+                android:text="&#8226;    Anxious when coming into contact with friends or family while with partner"
                 />
 
             <TextView
@@ -130,7 +130,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
                 android:lineSpacingExtra="3dp"
-                android:text="Noticeable change in appearance and withdrawn behaviour"
+                android:text="&#8226;    Noticeable change in appearance and withdrawn behaviour"
                 />
 
             <TextView
@@ -142,7 +142,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
                 android:lineSpacingExtra="3dp"
-                android:text="Defensive when questioned about boyfriend/girlfriends behaviour"
+                android:text="&#8226;    Defensive when questioned about boyfriend/girlfriends behaviour"
                 />
 
             <TextView
@@ -174,7 +174,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
                 android:lineSpacingExtra="3dp"
-                android:text="Has stopped all contact with friends and no longer uses any form of social media"
+                android:text="&#8226;    Has stopped all contact with friends and no longer uses any form of social media"
                 />
 
             <TextView
@@ -186,7 +186,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
                 android:lineSpacingExtra="3dp"
-                android:text="Boyfriend/Girlfriend continually calls asking where and what they are doing causing noticeable anxiety and depression"
+                android:text="&#8226;    Boyfriend/Girlfriend continually calls asking where and what they are doing causing noticeable anxiety and depression"
                 />
 
             <TextView
@@ -199,7 +199,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginLeft="15dp"
                 android:lineSpacingExtra="3dp"
-                android:text="Has unexplained bruising on body or face"
+                android:text="&#8226;    Has unexplained bruising on body or face"
                 />
 
 

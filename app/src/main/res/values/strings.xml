@@ -7,13 +7,13 @@
 
     <string name="open_drawer">Open</string>
     <string name="close_drawer">Close</string>
-    
+
     <!-- links -->
-    
+
     <string name="four_front_project_title">The 4 Front Project </string>
     <string name="four_front_project_web"><a href='http://4frontproject.org/'>http://4frontproject.org/</a></string>
     <string name="four_front_project_number">07908 077917</string>
-    
+
     <string name="chscb_title">The City &amp; Hackney Safeguarding Children Board </string>
     <string name="chscb_web"><a href='http://www.chscb.org.uk/'>http://www.chscb.org.uk/</a></string>
     <string name="chscb_number">0208 356 5500 </string>
@@ -41,7 +41,7 @@
 
     <string name="crib_title">The Crib</string>
     <string name="crib_number">07813 901751</string>
-    <string name="crib_email"><a href='mailto:the.crib@hotmail.co.uk' target='_top' >the.crib@hotmail.co.uk</a></string>
+    <string name="crib_email"><a href='mailto:the.crib@hotmail.co.uk' target='_top'>the.crib@hotmail.co.uk</a></string>
     <string name="crib_web"><a href='thecrib.org.uk'>thecrib.org.uk (Supported by Hackney IGU )</a></string>
 
 
@@ -61,7 +61,7 @@
 
     <string name="broken_rainbow_title">Broken Rainbow</string>
     <string name="broken_rainbow_number">0800 999 5428</string>
-    <string name="broken_rainbow_email"><a href='mailto:help@brokenrainbow.org.uk' target='_top' >help@brokenrainbow.org.uk</a></string>
+    <string name="broken_rainbow_email"><a href='mailto:help@brokenrainbow.org.uk' target='_top'>help@brokenrainbow.org.uk</a></string>
 
 
     <string name="childline_title">Childline</string>
@@ -86,14 +86,13 @@
     <string name="nia_web"><a href='www.niaendingviolence.org.uk'>www.niaendingviolence.org.uk</a></string>
 
 
-
     <string name="frank_title">Frank</string>
     <string name="frank_number">0207 654 8400</string>
 
 
     <string name="young_misuse_title">Young Hackney Substance Misuse Service</string>
     <string name="young_misuse_number">020 8356 7377</string>
-    <string name="young_misuse_email"><a href='mailto:yhsms@hackney.gov.uk' target='_top' >yhsms@hackney.gov.uk</a></string>
+    <string name="young_misuse_email"><a href='mailto:yhsms@hackney.gov.uk' target='_top'>yhsms@hackney.gov.uk</a></string>
 
 
     <string name="lifeline_title">Lifeline Hackney Community Drug Service (CDS)</string>
@@ -128,8 +127,29 @@
     <string name="exploit_target"> There is no sure indicator although vulnerable young people are at higher risk. This again has no relevance to your child/young person age, culture, race, gender, sexuality or region</string>
 
 
-    <string name="gang_title">What is a gang?</string>
+    <string name="gang_title">Gangs in more detail</string>
     <string name="gang_vigilant_title">We ask parents to be vigilant when your child/children are using: </string>
     <string name="social_media_title">YouTube and Social Media</string>
+
+
+    <string name="spice">Spice is a synthetic cannabis, for more information please click this link</string>
+
+    <string name="aims_title">Our aim as an organisation is to:</string>
+    <string name="objective_title">Our objective is to:</string>
+
+
+    <string name="contact_number_title">By Phone. (Click number to call)</string>
+
+    <string name="contact_email_title">By Email. (Click address to email)</string>
+    <string name="contact_email">parentsvoice526@gmail.com</string>
+    
+    
+    <string name="family_action_title">Family Action</string>
+    <string name="family_action_web"><a href='https://www.family-action.org.uk/'>https://www.family-action.org.uk/</a></string>
+
+
+    <string name="camhs_title">City and Hackney Child and Adolescent Mental Health Services</string>
+    <string name="camhs_web"><a href='http://www.cityandhackneycamhs.org.uk/'>http://www.cityandhackneycamhs.org.uk/</a></string>
+
 
 </resources>
